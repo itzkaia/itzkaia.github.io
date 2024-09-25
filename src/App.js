@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer";
+import Resume from "./components/Resume/ResumeNew";
+import Creative from "./components/Creative/Creative"
 import {
   BrowserRouter as Router,
   Route,
@@ -9,7 +14,6 @@ import {
   Navigate
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import logo from './logo.svg';
 import "./style.css";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -33,22 +37,13 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Projects />} />
+          <Route path="/creative" element={<Creative />} />
+          {/* <Route path="/resume" element={<Resume />} /> */}
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Editing!
-          
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header> */}
+        <Footer />
       </div>
     </Router>
   );

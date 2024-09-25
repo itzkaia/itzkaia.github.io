@@ -7,15 +7,15 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(255, 229, 135, 1),
-    rgba(255, 246, 236, 1)
+    rgba(255, 229, 135, 0),
+    rgba(255, 246, 236, 0)
   );
 
   --imp-text-color: #304436;
 
   /* Apply multiple backgrounds */
   /* background: 
-    url('./Assets/Gradient.svg') no-repeat top left,
+    url('./Assets/landing.jpg') no-repeat top left,
     var(--section-background-color); */
 }
 
@@ -262,9 +262,10 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/landing.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire container */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }

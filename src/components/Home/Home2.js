@@ -15,28 +15,27 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-            ~ what I'm up to ~
+            <h1 style={{ fontSize: "2em" }}>
+            welcome to my <strong className="main-name"> DIGITAL PLAYGROUND.</strong>
             </h1>
             <p className="home-about-body">
-              <b> Studying: </b>
+              here's what I'm up to:
+              <br />
+              <br />
+              <b> 🎓 Studying: </b>
               B.S. ECE &  Data Science @ University of Washington
               <br />
+              <b> 💻 Working: </b>
+              AI Intern @ Boeing
               <br />
-              <b> Working: </b>
-              AI @ Boeing
-              <br />
-              <br />
-              <b> Building: </b>
+              <b> 🏎️ Building: </b>
               autonomous racecars @ UW FSAE
               <br />
-              <br />
-              <b> Enjoying: </b>
+              <b> 😌 Enjoying: </b>
               iced lattes, good music, the east coast
               <br />
               <br />
-              <br />
-              <b className="purple"> Searching for: full-time entry level positions! </b>
+              <b> 🔎 Searching for: entry level SWE positions! </b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -49,7 +48,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             {/* <h1>FIND ME ON</h1> */}
             <p>
-              let's <span className="purple">connect </span>
+              let's <span className="purple">connect!</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -60,16 +59,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
