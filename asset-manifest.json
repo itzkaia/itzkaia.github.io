@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.d50082cf.css",
-    "main.js": "/static/js/main.b7cf9be2.js",
+    "main.js": "/static/js/main.f382d981.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/boeing.png": "/static/media/boeing.c4927d7193cd7506999b.png",
     "static/media/formula.png": "/static/media/formula.be7c1a1a2bc663cef214.png",
+    "static/media/fan.png": "/static/media/fan.58c9716655aa636bce98.png",
+    "static/media/fall.png": "/static/media/fall.5a3da9081b220db60d94.png",
+    "static/media/rat.png": "/static/media/rat.9fc90c83586c5b8344a1.png",
     "static/media/flappy.png": "/static/media/flappy.d59a1cf4add72a657540.png",
     "static/media/kb-resume.pdf": "/static/media/kb-resume.6dd4c7a714b91ce048da.pdf",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/kaia.png": "/static/media/kaia.296220268316f8f800c8.png",
     "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/landing.jpg": "/static/media/landing.55771e7fc9473fad1366.jpg",
@@ -17,11 +18,11 @@
     "static/media/kb.svg": "/static/media/kb.925575a1926f0774831f682fef653646.svg",
     "index.html": "/index.html",
     "main.d50082cf.css.map": "/static/css/main.d50082cf.css.map",
-    "main.b7cf9be2.js.map": "/static/js/main.b7cf9be2.js.map",
+    "main.f382d981.js.map": "/static/js/main.f382d981.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d50082cf.css",
-    "static/js/main.b7cf9be2.js"
+    "static/js/main.f382d981.js"
   ]
 }
