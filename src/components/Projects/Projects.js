@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import flappy from "../../Assets/Projects/flappy.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import rat from "../../Assets/Projects/rat.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import boeing from "../../Assets/Projects/boeing.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import fan from "../../Assets/Projects/fan.png";
+import fall from "../../Assets/Projects/fall.png";
 import formula from "../../Assets/Projects/formula.png";
 
 function Projects() {
@@ -66,6 +67,26 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
               <ProjectCard
+                imgPath={fan}
+                isBlog={false}
+                title="Remote Controlled Fan with Display"
+                description="Implemented the classic game Flappy Bird on an intel DE1-SoC FPGA board, displaying the game on an external VGA. Wrote 14 modules and testbenches in SystemVerilog for simulation and verification in Intel ModelSim. Designed Game flow using ASMD charts, specifying RTL operations and debugging timing issues."
+                ghLink="https://github.com/soumyajit4419/Plant_AI"
+                demoLink="https://plant49-ai.herokuapp.com/"
+              />
+          </Col>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={fall}
+                isBlog={false}
+                title="Fall Detection Device"
+                description="Implemented the classic game Flappy Bird on an intel DE1-SoC FPGA board, displaying the game on an external VGA. Wrote 14 modules and testbenches in SystemVerilog for simulation and verification in Intel ModelSim. Designed Game flow using ASMD charts, specifying RTL operations and debugging timing issues."
+                ghLink="https://github.com/soumyajit4419/Plant_AI"
+                demoLink="https://plant49-ai.herokuapp.com/"
+              />
+          </Col>
+          <Col md={4} className="project-card">
+              <ProjectCard
                 imgPath={flappy}
                 isBlog={false}
                 title="Flappy Bird on FPGA"
@@ -75,28 +96,16 @@ function Projects() {
               />
             </Col>
 
-            {/* <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={suicide}
+                imgPath={rat}
                 isBlog={false}
-                title="Ai For Social Good"
+                title="Convolutional Neural Network for Lab Video Classification"
                 description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
                 ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               />
             </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={emotion}
-                isBlog={false}
-                title="Face Recognition and Emotion Detection"
-                description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-                Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-                ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-                // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-              />
-            </Col> */}
         </Row>
       </Container>
     </Container>
