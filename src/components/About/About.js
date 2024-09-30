@@ -35,8 +35,8 @@ function About() {
         <Row style={{ justifyContent: "center", paddingTop: "10px", paddingBottom: "50px" }}>
           <blockquote className="blockquote mb-0">
             <p style={{ textAlign: "justify" }}>
-              I love people and conversation. I think there's so much to learn from the people around us! Reach out to chat over 
-              food or coffee; I'd love to know your story. 
+              My big inspirations are people and conversation. I think there's so much to learn from the people around me! Reach out to chat over 
+              food or coffee -- <b className="purple">I'd love to know your story.</b> 
             </p>
           </blockquote>
         </Row>

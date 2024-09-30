@@ -70,7 +70,7 @@ function Projects() {
                 imgPath={fan}
                 isBlog={false}
                 title="Remote Controlled Fan with Display"
-                description="Implemented the classic game Flappy Bird on an intel DE1-SoC FPGA board, displaying the game on an external VGA. Wrote 14 modules and testbenches in SystemVerilog for simulation and verification in Intel ModelSim. Designed Game flow using ASMD charts, specifying RTL operations and debugging timing issues."
+                description="Built using FreeRTOS to create a remote-controlled fan with an infrared remote, a DC motor, and an LCD display. Using a scheduler library, we create CPU and space-efficient scheduler tasks to accomplish the project. Materials used: Arduino Mega, 3-6V DC motor, IR remote control with IR receiver module, LCD display module."
                 ghLink="https://github.com/soumyajit4419/Plant_AI"
                 demoLink="https://plant49-ai.herokuapp.com/"
               />
@@ -79,8 +79,8 @@ function Projects() {
               <ProjectCard
                 imgPath={fall}
                 isBlog={false}
-                title="Fall Detection Device"
-                description="Implemented the classic game Flappy Bird on an intel DE1-SoC FPGA board, displaying the game on an external VGA. Wrote 14 modules and testbenches in SystemVerilog for simulation and verification in Intel ModelSim. Designed Game flow using ASMD charts, specifying RTL operations and debugging timing issues."
+                title="Fall Guys"
+                description="Built a fall detection device utilizing embedded machine learning techniques for signal processing. Materials used: Arduino Nano 33 BLE, on-board inertial measurement unit (IMU), accelerometer."
                 ghLink="https://github.com/soumyajit4419/Plant_AI"
                 demoLink="https://plant49-ai.herokuapp.com/"
               />
@@ -101,7 +101,7 @@ function Projects() {
                 imgPath={rat}
                 isBlog={false}
                 title="Convolutional Neural Network for Lab Video Classification"
-                description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+                description="Built a CNN for object recognition in lab video footage. Aims to detect the number of lab mice present in the testing environment at any point throughout the video. Model is 98% accurate."
                 ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               />
