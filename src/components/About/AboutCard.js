@@ -7,11 +7,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left"}}>
-            Hi! Hello! Kumusta!
+            Hi! Hello!<b className="purple"> Kumusta!</b>
             <br />
             <br />
-            I'm <b className="purple">Kaia Burgos </b>
-            - a graduating senior at the University of Washington in rainy Seattle.
+            I'm Kaia Burgos - a graduating senior at the University of Washington in rainy Seattle.
             I study <b className="purple">Electrical & Computer Engineering and Data Science</b>, and I love bringing ideas to life.
             <br />
             <br />
@@ -27,6 +26,7 @@ function AboutCard() {
           <ul style={{ textAlign: "left", listStyleType: "disc" }}>
             <li>Guitar (inspirations: John Mayer, Paul McCartney)</li>
             <li>Volleyball</li>
+            <li>Coffee</li>
             <li>Legos</li>
             <li>Tennis</li>
             <li>Sudoku</li>
