@@ -24,6 +24,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={formula}
+              isBlog={false}
+              title="Embedded Software Engineer"
+              subtitle="UW Formula Motorsports (FSAE)"
+              description="Ground-up development of an autonomous steering controller using STM32 and BLDC motor."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={boeing}
               isBlog={false}
               title="AI Software Engineering Intern"
